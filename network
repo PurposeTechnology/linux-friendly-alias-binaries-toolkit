@@ -37,6 +37,8 @@
 # One more for IP ADDRESS
 # https://stackoverflow.com/a/7806226
 
+# more for global ip https://unix.stackexchange.com/questions/22615/how-can-i-get-my-external-ip-address-in-a-shell-script
+
 
 # https://stackoverflow.com/questions/37378142/checking-if-the-first-argument-passed-to-a-bash-script-is-set/37378286#37378286
 
