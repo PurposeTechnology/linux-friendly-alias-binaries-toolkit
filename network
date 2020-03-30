@@ -24,6 +24,9 @@
 
 	#ip -brief address;
 
+# Ways to display mac address
+# https://askubuntu.com/a/628439
+
 
 # Display network interfaces https://linuxize.com/post/linux-ip-command/
 # ip link show 
