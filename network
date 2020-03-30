@@ -39,6 +39,8 @@
 
 # more for global ip https://unix.stackexchange.com/questions/22615/how-can-i-get-my-external-ip-address-in-a-shell-script
 
+# one more for local https://unix.stackexchange.com/a/522127
+
 
 # https://stackoverflow.com/questions/37378142/checking-if-the-first-argument-passed-to-a-bash-script-is-set/37378286#37378286
 
