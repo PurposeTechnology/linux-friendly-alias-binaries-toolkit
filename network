@@ -1,0 +1,43 @@
+#/bin/bash
+# Shows local ip address
+# Shows global ip address
+
+# lan ip address
+# network ip address 
+
+
+# source https://www.cyberciti.biz/faq/bash-shell-command-to-find-get-ip-address/
+
+# Ways to show global/external ip address
+
+	# dig +short myip.opendns.com @resolver1.opendns.com 
+
+	# host myip.opendns.com resolver1.opendns.com	
+
+	#https://www.linuxtrainingacademy.com/determine-public-ip-address-command-line-curl/
+
+	# curl ifconfig.me
+
+# Ways to display local ip address
+
+	# hostname -I
+
+	#ip -brief address;
+
+
+# Display network interfaces https://linuxize.com/post/linux-ip-command/
+# ip link show 
+
+
+# https://stackoverflow.com/questions/37378142/checking-if-the-first-argument-passed-to-a-bash-script-is-set/37378286#37378286
+
+if [ ! -z ${1+x} ]; then
+	if [ "$1" == "ip" ] && [ "$2" == "address" ] || [ "$1" == "ip address" ]; then
+		ip -brief address;
+	fi
+	if [ "$1" == "gateway" ]; then
+		echo sdf
+	fi
+fi
+
+# Generate help for each argument: network ip address help
