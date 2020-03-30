@@ -27,6 +27,9 @@
 # Ways to display mac address
 # https://askubuntu.com/a/628439
 
+# More ways to display local ip 
+# https://unix.stackexchange.com/a/365230
+
 
 # Display network interfaces https://linuxize.com/post/linux-ip-command/
 # ip link show 
