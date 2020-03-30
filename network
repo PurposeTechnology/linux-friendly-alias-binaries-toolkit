@@ -34,6 +34,9 @@
 # Display network interfaces https://linuxize.com/post/linux-ip-command/
 # ip link show 
 
+# One more for IP ADDRESS
+# https://stackoverflow.com/a/7806226
+
 
 # https://stackoverflow.com/questions/37378142/checking-if-the-first-argument-passed-to-a-bash-script-is-set/37378286#37378286
 
