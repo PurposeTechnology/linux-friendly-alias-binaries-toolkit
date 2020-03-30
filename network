@@ -46,7 +46,8 @@
 
 if [ ! -z ${1+x} ]; then
 	if [ "$1" == "ip" ] && [ "$2" == "address" ] || [ "$1" == "ip address" ]; then
-		ip -brief address;
+		#ip -brief address;
+		ip --brief -4 -c -o address 
 	fi
 	if [ "$1" == "gateway" ]; then
 		echo sdf
