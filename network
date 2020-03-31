@@ -48,6 +48,9 @@
 
 # https://stackoverflow.com/questions/37378142/checking-if-the-first-argument-passed-to-a-bash-script-is-set/37378286#37378286
 
+# Example of /proc/net/tcp actual usage https://gist.github.com/lanrat/0746c7a265a5e9937821
+
+
 if [ ! -z ${1+x} ]; then
 	if [ "$1" == "ip" ] && [ "$2" == "address" ] || [ "$1" == "ip address" ]; then
 		#ip -brief address;
