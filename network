@@ -44,6 +44,7 @@
 # Might be robust way to get local ip address
 # https://unix.stackexchange.com/a/178208
 
+# One more with IP command https://gist.github.com/p3x-robot/b5d9d71c5252fd4e62d848371ac992b0
 
 # https://stackoverflow.com/questions/37378142/checking-if-the-first-argument-passed-to-a-bash-script-is-set/37378286#37378286
 
